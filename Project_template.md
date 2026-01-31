@@ -195,3 +195,6 @@ test-app-hpa-rps   Deployment/test-app-deployment   13047m/10   1         10    
 
 GraphQL решение представлено в файле [graphql](Task5/graphql.graphqls)
 
+## Задание 6. Настройка Rate Limiting
+
+Решение представлено в файле [nginx](Task6/nginx.jsx)
