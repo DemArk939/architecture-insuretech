@@ -1,0 +1,16 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: test-app-monitor
+  namespace: default
+  labels:
+    app: test-app
+    release: prometheus
+spec:
+  selector:
+    matchLabels:
+      app: test-app
+  endpoints:
+    - port: http
+      interval: 30s
+      path: /metrics
