@@ -190,3 +190,8 @@ test-app-hpa-rps   Deployment/test-app-deployment   13047m/10   1         10    
 - Timeout - ожидание от страховых должно быть не более 60 секунд
 
 ![InsureTech_C4_сontainer-diagram.drawio.png](Task4/InsureTech_C4_сontainer-diagram.drawio.png)
+
+## Задание 5. Проектирование GraphQL API
+
+GraphQL решение представлено в файле [graphql](Task5/graphql.graphqls)
+
